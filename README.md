@@ -1,8 +1,8 @@
 # Guests List 
-This project implements the guest list service (the REST API) for the GetGround year-end party!
+This project implements the guest list service (the REST API) for the year-end party!
 
-Before the party, this service allow the functionality to add and remove guests with their entourages from our guest 
-list and generate a nice looking invitation for the invited guests. 
+Before the party, this service allow the functionality to add and remove guests with their entourages from the guest 
+list and generate an invitation for the invited guests. 
 
 When the party begins, guests will arrive with an entourage. This party may not be the size indicated on the guest list. 
 If the guest's table can accommodate the extra people, then the whole party should be let in. Otherwise, they will be turned away.
@@ -25,6 +25,7 @@ The API provides the following key features:
 4. Generate an invitation for the guest
 
 **DURING PARTY**
+
 5. Record the arrival of the guest to the party
 6. Record guests departure from the party
 7. Get a list of guests who have arrived to the party
@@ -189,6 +190,7 @@ $ curl --header "Content-Type: application/json, Content-Disposition: attachment
 
 **Output:**
 Returns the HTML file.
+
 **HTTP Response Status Code:** 200 OK
 
 #### 5. Record the arrival of the guest to the party

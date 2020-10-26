@@ -47,6 +47,8 @@ The API provides the following key features:
 ## Future Improvements
 In the future, I would consider the following improvements in the system:
 - Run migration from the code instead of running it from the command line
+- Add one more layer of business logic.
+- Put all configuration in the `.env` file.
 - Here, we are assuming that the tables are not shared between guests. We can modify this service to allow the table sharing
 between guests and their entourage. 
 - Implementing interfaces for the databases which will make the unittests easier.
